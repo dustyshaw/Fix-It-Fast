@@ -1,0 +1,15 @@
+.content {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.right {
+    text-align: right;
+}
+a {
+    color: whitesmoke !important;
+    text-decoration: underline !important;
+}
+a:hover {
+    text-decoration: none !important;
+}
