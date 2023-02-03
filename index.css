@@ -6,10 +6,17 @@
 .right {
     text-align: right;
 }
-a {
+footer a {
     color: whitesmoke !important;
     text-decoration: underline !important;
 }
-a:hover {
+footer a:hover {
     text-decoration: none !important;
+}
+nav {
+    color: black !important;
+}
+.centered {
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
