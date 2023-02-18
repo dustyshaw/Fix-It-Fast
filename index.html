@@ -6,75 +6,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fix-It-Fast</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <header>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
-                aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarExample01">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                </ul>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarExample01">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <!-- Navbar -->
+        </nav>
+        <!-- Navbar -->
 
-    <!-- Background image -->
-    <div class="text-center bg-image" style="
+        <!-- Background image -->
+        <div class="text-center bg-image" style="
             background-image: url(Hero.jpg);
             height: 700px;
             background-size: cover;
           ">
-        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); height: 100%; width: 100%;">
-            <div class="d-flex justify-content-center align-items-center h-100">
-                <div class="text-white">
-                    <h1 class="mb-3">FIX-IT-FAST</h1>
-                    <h4 class="mb-3">Utah Contracting Company</h4>
-                    <a class="btn btn-outline-light btn-lg" href="#!" role="button">Get a Quote</a>
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); height: 100%; width: 100%;">
+                <div class="d-flex justify-content-center align-items-center h-100" >
+                    <div class="text-white" >
+                        <h1 class="mb-3">FIX-IT-FAST</h1>
+                        <h4 class="mb-3">Utah Contracting Company</h4>
+                        <a class="btn btn-outline-light btn-lg" href="#!" role="button">Get a Quote</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Background image -->
+        <!-- Background image -->
+    </header>
 </header>
 
 <body>
     <div class="content">
-        <!-- Before and After Photos -->
-        <div>
-            <h1>Before and After</h1>
-            <div style="position: relative;">
-                <div class="centered before">
-                    <div style="height: 400px; width: 800px; background-color: gray; color: white; position: absulute !important; top:0px; left: 0px;">Before</div>
-                </div>
-                <div class="centered after">
-                    <div style="height: 400px; width: 400px; background-color: rgb(194, 194, 194); color: white; position: absulute !important; top:-400px !important; left: 0px;">**After :) **</div>
-                </div>
-            </div>
-            <!-- slider for before and after -->
-            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-        </div>
-        <!-- End Before and After Photos -->
         <div class="my-5 mb-5">
             <h1>Services</h1>
             <div class="row mb-3">
@@ -97,9 +85,7 @@
             <div class="row mb-3">
                 <div class="col-md">
                     <h2>Repairs</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem et, accusantium illo, magnam ex
-                        adipisci corrupti dolore quod asperiores hic voluptatem cupiditate incidunt fugit perspiciatis,
-                        rerum sunt reiciendis culpa minima!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem et, accusantium illo, magnam ex adipisci corrupti dolore quod asperiores hic voluptatem cupiditate incidunt fugit perspiciatis, rerum sunt reiciendis culpa minima!</p>
                 </div>
                 <div class="col-md">
                     <h2>Plumbing</h2>
@@ -114,68 +100,64 @@
                 </div>
             </div>
         </div>
-        <div
-            style="width: 50%; margin-left: auto; margin-right: auto; background-color: rgb(228, 239, 243); padding: 10px; border-radius: 10px;;">
+        <div style="width: 50%; margin-left: auto; margin-right: auto; background-color: rgb(228, 239, 243); padding: 10px; border-radius: 10px;;">
             <form>
                 <div class="form-group row">
-                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-                    <div class="col-sm-10">
-                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                    </div>
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                  </div>
                 </div>
                 <div class="form-group row">
-                    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-                    <div class="col-sm-10">
-                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-                    </div>
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                  </div>
                 </div>
                 <fieldset class="form-group">
-                    <div class="row">
-                        <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
-                        <div class="col-sm-10">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
-                                    value="option1" checked>
-                                <label class="form-check-label" for="gridRadios1">
-                                    Painting
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
-                                    value="option2">
-                                <label class="form-check-label" for="gridRadios2">
-                                    Drywall
-                                </label>
-                            </div>
-                            <div class="form-check disabled">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3"
-                                    value="option3" disabled>
-                                <label class="form-check-label" for="gridRadios3">
-                                    Remodel
-                                </label>
-                            </div>
-                        </div>
+                  <div class="row">
+                    <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                    <div class="col-sm-10">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Painting
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                          Drywall
+                        </label>
+                      </div>
+                      <div class="form-check disabled">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                        <label class="form-check-label" for="gridRadios3">
+                          Remodel
+                        </label>
+                      </div>
                     </div>
+                  </div>
                 </fieldset>
                 <div class="form-group row">
-                    <div class="col-sm-2">Checkbox</div>
-                    <div class="col-sm-10">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck1">
-                            <label class="form-check-label" for="gridCheck1">
-                                Example checkbox
-                            </label>
-                        </div>
+                  <div class="col-sm-2">Checkbox</div>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck1">
+                      <label class="form-check-label" for="gridCheck1">
+                        Example checkbox
+                      </label>
                     </div>
+                  </div>
                 </div>
                 <div class="form-group row">
-                    <div class="col-sm-10">
-                        <button type="submit" class="btn btn-primary">Sign in</button>
-                    </div>
+                  <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                  </div>
                 </div>
-            </form>
+              </form>
         </div>
-        <div class="mb-3">
+        <div>
             <h1>About Us</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi consequuntur laudantium officiis possimus
                 quas cumque ex explicabo incidunt, eligendi asperiores a quia molestias saepe placeat velit consequatur
@@ -183,7 +165,7 @@
         </div>
         <div>
             <div class="row">
-                <div class="col-md right">
+                <div class="col right">
                     <h1>Contact</h1>
                     <p>Brian.S@gmail.com</p>
                     <p>435.452.1101</p>
