@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link src="index.js">
 </head>
 
 <header>
@@ -63,6 +64,13 @@
 
 <body>
     <div class="content">
+      <div style="width: 100%; height: 400px; background-color: blue;" id="after">
+        After
+      </div>
+      <div style="width: 100%; height: 400px; background-color: gray; margin-top: -400px;" id="before">
+        Before
+      </div>
+      <input id="slider" type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider" style="width: 100%;">
         <div class="my-5 mb-5">
             <h1>Services</h1>
             <div class="row mb-3">
