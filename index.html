@@ -9,7 +9,8 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link src="index.js">
 </head>
 
@@ -51,14 +52,31 @@
       <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); height: 100%; width: 100%;">
         <div class="d-flex justify-content-center align-items-center h-100">
           <div class="text-white">
-            <h1 class="mb-3">FIX-IT-FAST</h1>
-            <h4 class="mb-3">Utah Contracting Company</h4>
+            <h1 class="mb-3 font-weight-bold">FIX-IT-FAST</h1>
+            <h5 class="mb-3" width="100">Northern Utah general contracting and home repair company</h5>
             <a class="btn btn-outline-light btn-lg" href="#!" role="button">Get a Quote</a>
           </div>
         </div>
       </div>
     </div>
-    <div style="height: 100px; width: 300px; background-color: #7ED957;"></div>
+    <div style="height: 300px; width: 100vw; background-color: #062133;">
+      <div class="p-2" style="width: 60vw; margin-left: auto; margin-right: auto;">
+        <div class="text-white">
+          <div class="row">
+            <div class="col-md-8">
+              <h3><em>Working for you!</em></h3>
+              <p>We are passionate about creating your dream home! Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Quibusdam placeat inventore laudantium quos. Quas a ipsa possimus culpa ad sequi autem officia
+                libero repellendus, ea explicabo quasi facere labore vitae!</p>
+            </div>
+            <div class="col-md-4">
+              <button style="background-color: #7ED957;">View Services</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
     <!-- Background image -->
   </header>
 </header>
@@ -104,12 +122,15 @@
       </div> -->
       <nav>
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Interior</button>
-          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Exterior</button>
+          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+            type="button" role="tab" aria-controls="nav-home" aria-selected="true">Interior</button>
+          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button"
+            role="tab" aria-controls="nav-profile" aria-selected="false">Exterior</button>
         </div>
       </nav>
       <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">Interior services descriptions
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">Interior
+          services descriptions
           <ul>
             <li>Home Renovations</li>
             <li>Home Repair</li>
@@ -124,7 +145,8 @@
             <li></li>
           </ul>
         </div>
-        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">Exterior Services descriptions
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">Exterior Services
+          descriptions
           <ul>
             <li>Painting</li>
             <li>House Siding</li>
@@ -136,66 +158,71 @@
         </div>
       </div>
 
-        <div
-          style="width: 50%; margin-left: auto; margin-right: auto; background-color: rgb(228, 239, 243); padding: 10px; border-radius: 10px;;">
-          <form>
-            <div class="form-group row">
-              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-              <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-              </div>
+      <div style="
+        width: 50%; 
+        margin-left: auto; 
+        margin-right: auto; 
+        background-color: rgb(228, 239, 243); 
+        padding: 10px; 
+        border-radius: 10px;">
+        <form>
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
             </div>
-            <div class="form-group row">
-              <label for="inputName3" class="col-sm-2 col-form-label">Name</label>
-              <div class="col-sm-10">
-                <input type="Name" class="form-control" id="inputName3" placeholder="Name">
-              </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputName3" class="col-sm-2 col-form-label">Name</label>
+            <div class="col-sm-10">
+              <input type="Name" class="form-control" id="inputName3" placeholder="Name">
             </div>
-            <fieldset class="form-group">
-              <div class="row">
-                <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
-                <div class="col-sm-10">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1"
-                      checked>
-                    <label class="form-check-label" for="gridRadios1">
-                      Painting
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                    <label class="form-check-label" for="gridRadios2">
-                      Drywall
-                    </label>
-                  </div>
-                  <div class="form-check disabled">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3"
-                      disabled>
-                    <label class="form-check-label" for="gridRadios3">
-                      Remodel
-                    </label>
-                  </div>
-                </div>
-              </div>
-            </fieldset>
-            <div class="form-group row">
-              <div class="col-sm-2">Checkbox</div>
+          </div>
+          <fieldset class="form-group">
+            <div class="row">
+              <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
               <div class="col-sm-10">
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="gridCheck1">
-                  <label class="form-check-label" for="gridCheck1">
-                    Example checkbox
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1"
+                    checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    Painting
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    Drywall
+                  </label>
+                </div>
+                <div class="form-check disabled">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3"
+                    disabled>
+                  <label class="form-check-label" for="gridRadios3">
+                    Remodel
                   </label>
                 </div>
               </div>
             </div>
-            <div class="form-group row">
-              <div class="col-sm-10">
-                <button type="submit" class="btn btn-primary">Sign in</button>
+          </fieldset>
+          <div class="form-group row">
+            <div class="col-sm-2">Checkbox</div>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                  Example checkbox
+                </label>
               </div>
             </div>
-          </form>
-        </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-10">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </div>
+        </form>
+      </div>
 
     </div>
     <div>
@@ -224,26 +251,19 @@
     </div>
   </div>
 </body>
-<footer style="background-color: rgb(35, 41, 57); color: rgb(173, 178, 185); ">
+<footer style="background-color: rgb(35, 41, 57); color: rgb(224, 225, 227); ">
   <div class="row" style="width: 75%; margin-left: auto; margin-right: auto; padding-top: 5%; padding-bottom: 1%;">
-    <div class="col-md">
-      <p><b>Services</b></p>
-      <p><a href="#">Painting</a></p>
-      <p>Drywall</p>
-      <p>Flooring</p>
+    <div class="col-md justify-content-end" style="border-right: white 2px solid;">
+      <h1 class="font-weight-bold">FIX-IT-FAST</h1>
+      <p>6345 N 4800 W, <br />Honeyville, UT 84314</p>
+      <p>435.730.6474</p>
     </div>
     <div class="col-md">
-      <p>Photo Gallery</p>
-    </div>
-    <div class="col-md">
-      <p>Contact</p>
-      <p>Phone</p>
-      <p>Location</p>
-      <p>Email</p>
-      <p>Hours</p>
+      <p>Home Services Gallery Reviews </p>
     </div>
   </div>
-  <small>Website provided by Dusty Shaw</small>
+  <small class="right">Website provided by <a style="color: white;" href="https://dustyshaw.github.io/" target="_blank"
+      opener="noopener">Dusty Shaw</a></small>
 </footer>
 
 </html>
