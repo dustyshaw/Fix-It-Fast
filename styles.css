@@ -36,13 +36,15 @@ button {
 .section-one {
     padding-top: 75px;
 }
+
+/* NEED TO CHANGE THIS FOR MOBILE */
 .content {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
 .right {
-    text-align: right;
+    text-align: right !important;
 }
 
 a:hover {
@@ -50,4 +52,8 @@ a:hover {
 }
 black {
     color: black !important;
+}
+
+h1 {
+    color: #7ED957;
 }
