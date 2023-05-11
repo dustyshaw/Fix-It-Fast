@@ -55,7 +55,7 @@
           <h5 class="mb-3" width="100">
             Northern Utah General Contracting and Home Repair
           </h5>
-          <a class="btn btn-outline-light btn-lg" href="#!" role="button">Get a Quote</a>
+          <a class="btn btn-outline-light btn-lg" href="#contact" role="button">Get a Quote</a>
         </div>
       </div>
     </div>
@@ -72,7 +72,7 @@
             <p>
               At Fix-It-Fast, we're passionate about helping you create your
               dream home. We are licensed and insured, so you can trust us to
-              get the job done. We serve the Northern Utah area, no job is to
+              get the job done. We serve the Northern Utah area and no job is to
               small for us. Give us a call today!
             </p>
           </div>
@@ -87,39 +87,39 @@
 </header>
 
 <body>
-  
-  
-    <!-- Gallery teaser section  -->
-    <div class="row my-5">
-      <div class="col">
-        <!-- <p>Images here</p> -->
-        <div class="container-fluid">
-          <div class="row flex-row flex-nowrap">
-              <div class="col-3">
-                  <div class="card card-block">Card</div>
-              </div>
-              <div class="col-3">
-                  <div class="card card-block">Card</div>
-              </div>
-              <div class="col-3">
-                  <div class="card card-block">Card</div>
-              </div>
-              <div class="col-3">
-                  <div class="card card-block">Card</div>
-              </div>
+
+
+  <!-- Gallery teaser section  -->
+  <div class="row my-5">
+    <div class="col">
+      <!-- <p>Images here</p> -->
+      <div class="container-fluid">
+        <div class="row flex-row flex-nowrap">
+          <div class="col-3">
+            <div class="card card-block">Card</div>
           </div>
-      </div>
-      </div>
-      <div class="col">
-        <p>
-          Fix-It-Fast serves Northern Utah, providing services that make a
-          difference to your home.
-        </p>
-        <button>See Gallery</button>
+          <div class="col-3">
+            <div class="card card-block">Card</div>
+          </div>
+          <div class="col-3">
+            <div class="card card-block">Card</div>
+          </div>
+          <div class="col-3">
+            <div class="card card-block">Card</div>
+          </div>
+        </div>
       </div>
     </div>
-    
-    <div class="content">
+    <div class="col">
+      <p>
+        Fix-It-Fast serves Northern Utah, providing services that make a
+        difference to your home.
+      </p>
+      <button>See Gallery</button>
+    </div>
+  </div>
+
+  <div class="content">
 
     <!-- SERVICES SECTION -->
     <div class="my-5 mb-5">
@@ -152,54 +152,54 @@
       </div>
       <!-- End services section -->
 
-      <!-- CONTACT FORM -->
-      <h1 id="contactUs">Contact Us</h1>
-      <div style="
+      <section id="contact">
+        <!-- CONTACT FORM -->
+        <div class="container mt-5" style="
             margin-left: auto;
             margin-right: auto;
-            background-color: rgb(228, 239, 243);
+            background-color: #e6e8e9;
             padding: 10px;
             border-radius: 10px;
           ">
-        <form action="https://getform.io/f/816e89de-b969-4a06-85a8-0e931d0f314a" method="POST">
-          <div class="form-group row">
-            <label for="inputName3" class="col-sm-2 col-form-label">Full Name</label>
-            <div class="col-sm-10">
-              <input type="Name" class="form-control" id="inputName3" placeholder="Full Name" name="name" />
+          <h1>Send Us A Message!</h1>
+          <p>Need a quote? Send us a message and we'll get back to you within 48 hours.
+            If you're short on time, give us a call at 435-730-6474.</p>
+          <form class="row g-3" action="https://getform.io/f/816e89de-b969-4a06-85a8-0e931d0f314a" method="POST"
+            enctype="multipart/form-data">
+            <div class="col-md-6">
+              <label for="fullname" class="form-label">Name*</label>
+              <input type="text" id="fullname" class="form-control" name="name" required>
             </div>
-          </div>
-          <div class="form-group row">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Email Address</label>
-            <div class="col-sm-10">
-              <input type="email" class="form-control" id="inputEmail3" placeholder="Email" name="email" />
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" class="form-control" name="email">
             </div>
-          </div>
-          <div class="form-group row">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Subject</label>
-            <div class="col-sm-10">
-              <input type="text" class="form-control" id="inputEmail3" placeholder="Subject" name="subject" />
+            <div class="col-md-6">
+              <label for="phone" class="form-label">Phone Number*</label>
+              <input type="tel" id="phone" class="form-control" name="phone" required>
             </div>
-          </div>
-          <div class="form-group row">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Job Description</label>
-            <div class="col-sm-10">
-              <input type="text" class="form-control" id="inputEmail3" placeholder="Job Description"
-                name="description" />
+            <div class="col-md-6">
+              <label for="location" class="form-label">Location (City)</label>
+              <input type="text" id="location" class="form-control" name="location">
             </div>
-          </div>
-          <div class="form-group row">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Attachments</label>
-            <div class="col-sm-10">
-              <input type="file" name="file">
+            <div class="col-md-12">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" id="subject" class="form-control" name="subject">
             </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-sm-10">
-              <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="col-md-12">
+              <label for="message" class="form-label">Your Message*</label>
+              <textarea id="message" class="form-control" rows="4" name="text" required></textarea>
             </div>
-          </div>
-        </form>
-      </div>
+            <div class="">
+              <label for="file">Attachments (5MB limit)</label>
+              <input type="file" id="file" name="file">
+            </div>
+            <div>
+              <button class="btn btn-info" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
     </div>
   </div>
   <!-- end content form -->
@@ -227,7 +227,7 @@
     <div>
       <div class="row">
         <div class="col right">
-          <h1>Contact</h1>
+          <h1>Contact Information</h1>
           <p>Brian.S@gmail.com</p>
           <p>435.452.1101</p>
           <h3>Hours</h3>
@@ -260,7 +260,7 @@
     <div class="col-md justify-content-end" style="border-right: white 2px solid">
       <h1 class="font-weight-bold">FIX-IT-FAST</h1>
       <p>6345 N 4800 W, <br />Honeyville, UT 84314</p>
-      <p>435.730.6474</p>
+      <p>435.452.1101</p>
     </div>
     <div class="col-md">
       <div class="row ml-5 mr-5">
@@ -272,7 +272,8 @@
     </div>
   </div>
   <small class="right">Website created by <a style="color: white;" href="https://dustyshaw.github.io/" target="_blank"
-      opener="noopener">Dusty Shaw</a> and <a style="color: white;" href="https://sara-shaw.github.io/" target="_blank" opener="noopener">Sara Shaw</a></small>
+      opener="noopener">Dusty Shaw</a> and <a style="color: white;" href="https://sara-shaw.github.io/" target="_blank"
+      opener="noopener">Sara Shaw</a></small>
 </footer>
 
 </html>
