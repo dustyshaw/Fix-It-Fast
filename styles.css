@@ -2,7 +2,8 @@
     margin: 0;
     font-family: sans-serif;
 }
-#header-background{
+
+#header-background {
     background-color: black;
     position: absolute;
     transform: rotate(-6deg);
@@ -12,7 +13,8 @@
     margin-left: -150px;
     z-index: -2;
 }
-button {
+
+/* button {
     border-radius: 0%;
     color: white;
     border: none;
@@ -22,7 +24,7 @@ button {
     margin-left: 100px;
     width: 200px;
     height: 40px;
-}
+} */
 
 #name {
     background-color: white;
